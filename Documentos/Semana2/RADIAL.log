@@ -1,0 +1,323 @@
+    Opened LOG FILE         on unit 10, filename is 'C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2\RADIAL.log'
+ ********************************************************************************
+ *                                                                              *
+ *                                IMEX  2015.10                                 *
+ *                   Adaptive - Implicit Black Oil Simulator                    *
+ *                         General Release for Win x64                          *
+ *                            2015-May-27   11:08:03                            *
+ *                                                                              *
+ *                          (c) Copyright 1977 - 2015                           *
+ *                Computer Modelling Group Ltd., Calgary, Canada                *
+ *                             All Rights Reserved                              *
+ *                                                                              *
+ ********************************************************************************
+
+
+ Command-line Arguments:  -f C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2\RADIAL.dat
+                          -wd C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2
+                          -log
+                          -wait
+
+ Date and Time of Start of Run:  Jul 11, 2024  09:22:42
+
+
+*** Input/Output files specification :
+    Opened data file        on unit 11, filename is 'C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2\RADIAL.dat'
+    Opened Scratch file     on unit 12
+ 
+ 
+    Opened output file      on unit 13, filename is 'C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2\RADIAL.out'
+    Opened INDEX-OUT        on unit 14, filename is 'C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2\RADIAL.irf'
+    Opened MAIN-RESULTS-OUT on unit 15, filename is 'C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2\RADIAL.mrf'
+    Opened Restart-NDX      on unit 16, filename is 'C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2\RADIAL.rstr.irf'
+    Opened Restart-BIN      on unit 17, filename is 'C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2\RADIAL.rstr.mrf'
+
+ ===================== WARNING (from subroutine: INIORD) ======================
+  Gas property related printout is being disabled
+  The OILWATER option does not allow gas property output.
+  Line: 15   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: INIORD) ======================
+  Solvent property related printout is being disabled
+  This MODEL option does not allow solvent property output.
+  Line: 15   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+    Opened GRID scratchfile on unit 18
+
+ ===================== WARNING (from subroutine: TBLCHK) ======================
+  PVT TABLE 1 is in error. Eg for entry 
+  1 is unreasonably small with respect to Rs/Bo
+  Line: 79   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: TBLCHK) ======================
+  PVT TABLE 1 is in error. Eg for entry 
+  2 is unreasonably small with respect to Rs/Bo
+  Line: 79   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: TBLCHK) ======================
+  PVT TABLE 1 is in error. Eg for entry 
+  3 is unreasonably small with respect to Rs/Bo
+  Line: 79   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: TBLCHK) ======================
+  PVT TABLE 1 is in error. Eg for entry 
+  4 is unreasonably small with respect to Rs/Bo
+  Line: 79   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: TBLCHK) ======================
+  PVT TABLE 1 is in error. Eg for entry 
+  5 is unreasonably small with respect to Rs/Bo
+  Line: 79   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: TBLCHK) ======================
+  PVT TABLE 1 is in error. Eg for entry 
+  6 is unreasonably small with respect to Rs/Bo
+  Line: 79   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: TBLCHK) ======================
+  PVT TABLE 1 is in error. Eg for entry 
+  7 is unreasonably small with respect to Rs/Bo
+  Line: 79   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: TBLCHK) ======================
+  PVT TABLE 1 is in error. Eg for entry 
+  8 is unreasonably small with respect to Rs/Bo
+  Line: 79   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: TBLCHK) ======================
+  PVT TABLE 1 is in error. Eg for entry 
+  9 is unreasonably small with respect to Rs/Bo
+  Line: 79   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: TBLCHK) ======================
+  PVT TABLE 1 is in error. Eg for entry 
+  10 is unreasonably small with respect to Rs/Bo
+  Line: 79   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: TBLCHK) ======================
+  PVT TABLE 1 is in error. Eg for entry 
+  11 is unreasonably small with respect to Rs/Bo
+  Line: 79   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: TBLCHK) ======================
+  PVT TABLE 1 is in error. Eg for entry 
+  12 is unreasonably small with respect to Rs/Bo
+  Line: 79   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: TBLCHK) ======================
+  PVT TABLE 1 is in error. Eg for entry 
+  13 is unreasonably small with respect to Rs/Bo
+  Line: 79   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: TBLCHK) ======================
+  PVT TABLE 1 is in error. Eg for entry 
+  14 is unreasonably small with respect to Rs/Bo
+  Line: 79   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: TBLCHK) ======================
+  PVT TABLE 1 is in error. Eg for entry 
+  15 is unreasonably small with respect to Rs/Bo
+  Line: 79   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: TBLCHK) ======================
+  PVT TABLE 1 is in error. Eg for entry 
+  16 is unreasonably small with respect to Rs/Bo
+  Line: 79   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: ININIT) ======================
+  The *SO keyword is not used with the *VERTICAL *BLOCK_CENTER or *DEPTH_AVE option.
+  The *SO keyword and array values entered are ignored.
+  Line: 112   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Doc
+ ==============================================================================
+
+
+ ===================== SUMMARY (from subroutine: INDATA) ======================
+  Reading of initial data is complete.
+  Simulation will stop if there were error messages.
+    19 Warning messages.    0 Error messages.
+ ==============================================================================
+
+
+                                    I M E X   T I M E   S T E P   S U M M A R Y                                                     
+ =================================================================================================================                  
+    Time Step          Time                  Total Production             Total Injection  Total Max. Max. Change                   
+ --------------- ---------------- -------------------------------------- -----------------  PV   Mat. ------------                  
+               C                    Oil      Gas     Water   GOR.  Wat.    Gas     Water   Avg.  bal. Satur. Pres.                  
+       Size    U                                              M3/   Cut                    Pres. err. DSMAX  DPMAX                  
+  No.  Days IT T Days   yy:mm:dd    M3/D    MM3/D     M3/D     M3    %    MM3/D     M3/D    kPa   %           kPa                   
+ ----- ---- -- - ----- ---------- -------- -------- -------- ----- ----- -------- -------- ----- ---- ------ -----                  
+    1w .025 1  0 .0250 2024:06:01 6.237873 .0018110          .2903                         111.9 e-4w -2e-4o -15.6                  
+    2  .125 1  0 .1500 2024:06:01 5.297449 .0015380          .2903                         110.4 e-5w -.001o -1.59                  
+    3  .425 1  0 .5750 2024:06:02 4.863252 .0014120          .2903                         109.6 e-5w -.004o -.785                  
+    4  .425 1  0 1.000 2024:06:02 4.704921 .0013660          .2903                         109.4 e-5o -.004o -.281                  
+    5w 1.00 1  0 2.000 2024:06:03 4.524391 .0013136          .2903                         109.1 e-5o -.010o -.322                  
+    6w 1.00 1  0 3.000 2024:06:04 4.421519 .0012837          .2903                         108.9 e-5o -.009o -.172                  
+    7w 1.00 1  0 4.000 2024:06:05 4.350137 .0012630          .2903                         108.8 e-5o -.009o -.116                  
+    8w 1.00 1  0 5.000 2024:06:06 4.295394 .0012471          .2903                         108.7 e-5o -.009o -.089                  
+    9w 1.00 1  0 6.000 2024:06:07 4.250884 .0012342          .2903                         108.6 e-5o -.009o -.073                  
+   10w 1.00 1  0 7.000 2024:06:08 4.213271 .0012232          .2903                         108.6 e-5o -.009o -.061                  
+   11w 1.00 1  0 8.000 2024:06:09 4.180601 .0012138          .2903                         108.5 e-5o -.009o -.053                  
+   12w 1.00 1  0 9.000 2024:06:10 4.151634 .0012053          .2903                         108.5 e-5o -.009o -.047                  
+   13w 1.00 1  0 10.00 2024:06:11 4.125535 .0011978          .2903                         108.5 e-5o -.009o -.042                  
+   14w 1.00 1  0 11.00 2024:06:12 4.101715 .0011909          .2903                         108.4 e-5o -.009o -.039                  
+   15w 1.00 1  0 12.00 2024:06:13 4.079825 .0011845          .2903                         108.4 e-5o -.009o -.035                  
+   16w 1.00 1  0 13.00 2024:06:14 4.060153 .0011788          .2903                         108.4 e-5o -.009o -.032                  
+   17w 1.00 1  0 14.00 2024:06:15 4.041731 .0011734          .2903                         108.3 e-5o -.008o -.030                  
+   18w 1.00 1  0 15.00 2024:06:16 4.024362 .0011684          .2903                         108.3 e-5o -.008o -.028                  
+   19w 1.00 1  0 16.00 2024:06:17 4.007891 .0011636          .2903                         108.3 e-5o -.008o -.026                  
+   20w 1.00 1  0 17.00 2024:06:18 3.992190 .0011591          .2903                         108.3 e-5o -.008o -.025                  
+
+                                    I M E X   T I M E   S T E P   S U M M A R Y                                                     
+ =================================================================================================================                  
+    Time Step          Time                  Total Production             Total Injection  Total Max. Max. Change                   
+ --------------- ---------------- -------------------------------------- -----------------  PV   Mat. ------------                  
+               C                    Oil      Gas     Water   GOR.  Wat.    Gas     Water   Avg.  bal. Satur. Pres.                  
+       Size    U                                              M3/   Cut                    Pres. err. DSMAX  DPMAX                  
+  No.  Days IT T Days   yy:mm:dd    M3/D    MM3/D     M3/D     M3    %    MM3/D     M3/D    kPa   %           kPa                   
+ ----- ---- -- - ----- ---------- -------- -------- -------- ----- ----- -------- -------- ----- ---- ------ -----                  
+   21w 1.00 1  0 18.00 2024:06:19 3.977153 .0011547          .2903                         108.3 e-5o -.008o -.024                  
+   22w 1.00 1  0 19.00 2024:06:20 3.962692 .0011505          .2903                         108.3 e-5o -.008o -.023                  
+   23w 1.00 1  0 20.00 2024:06:21 3.948732 .0011464          .2903                         108.2 e-5o -.008o -.022                  
+   24w 1.00 1  0 21.00 2024:06:22 3.935209 .0011425          .2903                         108.2 e-5o -.008o -.021                  
+   25w 1.00 1  0 22.00 2024:06:23 3.922068 .0011387          .2903                         108.2 e-5o -.008o -.020                  
+   26w 1.00 1  0 23.00 2024:06:24 3.909260 .0011350          .2903                         108.2 e-5o -.008o -.019                  
+   27w 1.00 1  0 24.00 2024:06:25 3.896744 .0011313          .2903                         108.2 e-5o -.008o -.019                  
+   28w 1.00 1  0 25.00 2024:06:26 3.885721 .0011281          .2903                         108.2 e-5o -.008o -.016                  
+   29w 1.00 1  0 26.00 2024:06:27 3.875003 .0011250          .2903                         108.2 e-5o -.008o -.015                  
+   30w 1.00 1  0 27.00 2024:06:28 3.864513 .0011220          .2903                         108.2 e-5o -.008o -.015                  
+   31w 1.00 1  0 28.00 2024:06:29 3.854228 .0011190          .2903                         108.2 e-5o -.008o -.015                  
+   32w 1.00 1  0 29.00 2024:06:30 3.844126 .0011161          .2903                         108.2 e-5o -.007o -.015                  
+   33w 1.00 1  0 30.00 2024:07:01 3.834187 .0011132          .2903                         108.2 e-5o -.007o -.014                  
+   34w 1.00 1  0 31.00 2024:07:02 3.824395 .0011103          .2903                         108.1 e-5o -.007o -.014                  
+   35w 1.00 1  0 32.00 2024:07:03 3.814733 .0011075          .2903                         108.1 e-5o -.007o -.014                  
+   36w 1.00 1  0 33.00 2024:07:04 3.805187 .0011048          .2903                         108.1 e-5o -.007o -.014                  
+   37w 1.00 1  0 34.00 2024:07:05 3.795743 .0011020          .2903                         108.1 e-5o -.007o -.014                  
+   38w 1.00 1  0 35.00 2024:07:06 3.786390 .0010993          .2903                         108.1 e-5o -.007o -.013                  
+   39w 1.00 1  0 36.00 2024:07:07 3.777115 .0010966          .2903                         108.1 e-5o -.007o -.013                  
+   40w 1.00 1  0 37.00 2024:07:08 3.767909 .0010939          .2903                         108.1 e-5o -.007o -.013                  
+
+                                    I M E X   T I M E   S T E P   S U M M A R Y                                                     
+ =================================================================================================================                  
+    Time Step          Time                  Total Production             Total Injection  Total Max. Max. Change                   
+ --------------- ---------------- -------------------------------------- -----------------  PV   Mat. ------------                  
+               C                    Oil      Gas     Water   GOR.  Wat.    Gas     Water   Avg.  bal. Satur. Pres.                  
+       Size    U                                              M3/   Cut                    Pres. err. DSMAX  DPMAX                  
+  No.  Days IT T Days   yy:mm:dd    M3/D    MM3/D     M3/D     M3    %    MM3/D     M3/D    kPa   %           kPa                   
+ ----- ---- -- - ----- ---------- -------- -------- -------- ----- ----- -------- -------- ----- ---- ------ -----                  
+   41w 1.00 1  0 38.00 2024:07:09 3.759243 .0010914          .2903                         108.1 e-5o -.007o -.012                  
+   42w 1.00 1  0 39.00 2024:07:10 3.751570 .0010892          .2903                         108.1 e-5o -.007o -.011                  
+   43w 1.00 1  0 40.00 2024:07:11 3.743950 .0010870          .2903                         108.1 e-5o -.007o -.011                  
+   44w 1.00 1  0 41.00 2024:07:12 3.736375 .0010848          .2903                         108.1 e-5o -.006o -.011                  
+   45w 1.00 1  0 42.00 2024:07:13 3.728838 .0010826          .2903                         108.1 e-5o -.006o -.011                  
+   46w 1.00 1  0 43.00 2024:07:14 3.721332 .0010804          .2903                         108.1 e-5o -.006o -.011                  
+   47w 1.00 1  0 44.00 2024:07:15 3.713850 .0010782          .2903                         108.1 e-5o -.006o -.010                  
+   48w 1.00 1  0 45.00 2024:07:16 3.706385 .0010761          .2903                         108.1 e-5o -.006o -.010                  
+   49w 1.00 1  0 46.00 2024:07:17 3.698930 .0010739          .2903                         108.1 e-5o -.006o -.010                  
+   50w 1.00 1  0 47.00 2024:07:18 3.691480 .0010718          .2903                         108.1 e-5o -.006o -.010                  
+   51w 1.00 1  0 48.00 2024:07:19 3.684028 .0010696          .2903                         108.1 e-5o -.006o -.010                  
+   52w 1.00 1  0 49.00 2024:07:20 3.676568 .0010674          .2903                         108.1 e-5o -.006o -.010                  
+   53w 1.00 1  0 50.00 2024:07:21 3.669093 .0010653          .2903                         108.1 e-5o -.006o -.010                  
+   54w 1.00 1  0 51.00 2024:07:22 3.661597 .0010631          .2903                         108.1 e-5o -.006o -.010                  
+   55w 1.00 1  0 52.00 2024:07:23 3.654329 .0010610          .2903                         108.1 e-5o -.006o -.010                  
+   56w 1.00 1  0 53.00 2024:07:24 3.647187 .0010589          .2903                         108.1 e-5o -.006o -.009                  
+   57w 1.00 1  0 54.00 2024:07:25 3.640009 .0010568          .2903                         108.1 e-5o -.006o -.009                  
+   58w 1.00 1  0 55.00 2024:07:26 3.634060 .0010551          .2903                         108.1 e-5o -.006o -.007                  
+   59w 1.00 1  0 56.00 2024:07:27 3.628076 .0010533          .2903                         108.1 e-5o -.006o -.007                  
+   60w 1.00 1  0 57.00 2024:07:28 3.622022 .0010516          .2903                         108.1 e-5o -.006o -.008                  
+
+                                    I M E X   T I M E   S T E P   S U M M A R Y                                                     
+ =================================================================================================================                  
+    Time Step          Time                  Total Production             Total Injection  Total Max. Max. Change                   
+ --------------- ---------------- -------------------------------------- -----------------  PV   Mat. ------------                  
+               C                    Oil      Gas     Water   GOR.  Wat.    Gas     Water   Avg.  bal. Satur. Pres.                  
+       Size    U                                              M3/   Cut                    Pres. err. DSMAX  DPMAX                  
+  No.  Days IT T Days   yy:mm:dd    M3/D    MM3/D     M3/D     M3    %    MM3/D     M3/D    kPa   %           kPa                   
+ ----- ---- -- - ----- ---------- -------- -------- -------- ----- ----- -------- -------- ----- ---- ------ -----                  
+   61w 1.00 1  0 58.00 2024:07:29 3.615892 .0010498          .2903                         108.1 e-5o -.007o -.008                  
+   62w 1.00 1  0 59.00 2024:07:30 3.609680 .0010480          .2903                         108.1 e-5o -.007o -.008                  
+   63w 1.00 1  0 60.00 2024:07:31 3.603379 .0010462          .2903                         108.1 e-5o -.007o -.008                  
+
+ ===================== SUMMARY (from subroutine: TSIO)   ======================
+  Simulation run terminated. Stopping time reached.
+    
+    19 Warning messages.    0 Error messages.
+ ==============================================================================
+
+
+       Field Total                             Fluid
+                             Oil       Gas       Water    Solvent   Polymer 
+                            -------   -------   -------   -------   -------
+                            (MSM3)    (MMSM3)   (MSM3)    (MMSM3)   (MKG) 
+  Cumulative Production      .23358    678e-7      0        NA        NA   
+  Cumulative Injection        NA        NA         0        NA        NA   
+  Cumulative Gas Lift         NA         0        NA        NA        NA   
+  Cumulative Water Influx     NA        NA       .24384     NA        NA   
+  Current Fluids In Place    .51868    150e-6    .24384     NA        NA   
+  Production Rates           .00360    104e-8      0        NA        NA   
+  Injection Rates             NA        NA         0        NA        NA   
+
+  Timesteps:     63  Newton Cycles:       63  Cuts:      0  Solver Iterations:          315
+  Average Implicitness    : 0.018
+  Material Balances (owg ): 1.000 1.000 1.000
+  Average Active Blocks:          55 Average Non-BHP Active Wells:     0
+  Total Blocks :          60 Total Wells :     1
+  Active Blocks:          55 Non-BHP Active Wells:     0
+  Total lstpro/lstpar calls:     3
+  Time at end of simulation:   60.0000     (days) 
+  Average reservoir pressure excluding water zone: 108.0985 (kPa)    
+  Total Number of Solver Failures:       0
+  Jacobian Domains      1
+  Linear Solver: Aimsol
+  Preconditioner Ordering     REDBLACK
+  Preconditioner Degree           1
+  KMP_AFFINITY: Default
+  OMP_SCHEDULE: Default
+  Max Impl Blocks:        1  %Impl:  1.8%  (TS,CUT,NCYC): (    1, 0,  1 )
+  Max Solver Iterations (TS,CUT,NCYC):   5 (    1, 0,  1 )
+  Number of threads set:    1
+  Total number of cpus:   12
+  Memory Usage Peak:       21 MB on TS:    1  TS 1 Peak:       21 MB  Average:       21 MB  VM Size:        8 MB
+  Host computer: FAMILIA-GUICHAY
+
+  End of Simulation: Normal Termination   
+
+  CPU Time:             0.08 seconds
+  Elapsed Time:         0.25 seconds
+
+  Date and Time of End of Run:  Jul 11, 2024  09:22:42
+

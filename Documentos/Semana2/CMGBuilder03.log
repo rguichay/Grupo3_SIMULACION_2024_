@@ -1,0 +1,122 @@
+    Opened LOG FILE         on unit 10, filename is 'C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2\CMGBuilder03.log'
+ ********************************************************************************
+ *                                                                              *
+ *                                IMEX  2015.10                                 *
+ *                   Adaptive - Implicit Black Oil Simulator                    *
+ *                         General Release for Win x64                          *
+ *                            2015-May-27   11:08:03                            *
+ *                                                                              *
+ *                          (c) Copyright 1977 - 2015                           *
+ *                Computer Modelling Group Ltd., Calgary, Canada                *
+ *                             All Rights Reserved                              *
+ *                                                                              *
+ ********************************************************************************
+
+
+ Command-line Arguments:  -dimsum
+                          -wd C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2
+                          -log
+                          -f C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2\CMGBuilder03.dat
+
+ Date and Time of Start of Run:  Jul  9, 2024  20:18:53
+
+
+*** Input/Output files specification :
+    Opened data file        on unit 11, filename is 'C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2\CMGBuilder03.dat'
+    Opened Scratch file     on unit 12
+ 
+ 
+    Opened output file      on unit 13, filename is 'C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2\CMGBuilder03.out'
+    Opened INDEX-OUT        on unit 14, filename is 'C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2\CMGBuilder03.irf'
+    Opened MAIN-RESULTS-OUT on unit 15, filename is 'C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2\CMGBuilder03.mrf'
+    Opened Restart-NDX      on unit 16, filename is 'C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2\CMGBuilder03.rstr.irf'
+    Opened Restart-BIN      on unit 17, filename is 'C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2\CMGBuilder03.rstr.mrf'
+
+ ===================== WARNING (from subroutine: INIORD) ======================
+  Gas property related printout is being disabled
+  The OILWATER option does not allow gas property output.
+  Line: 11   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: INIORD) ======================
+  Solvent property related printout is being disabled
+  This MODEL option does not allow solvent property output.
+  Line: 11   File Name: C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Docu
+ ==============================================================================
+
+    Opened GRID scratchfile on unit 18
+
+ ===================== SUMMARY (from subroutine: INDATA) ======================
+  Reading of initial data is complete.
+  Simulation will stop if there were error messages.
+     2 Warning messages.    0 Error messages.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: WMCHCK) ======================
+  WELL Inyector_1 is an unweighted injector with XFLOW-MODEL FULLY-MIXED.
+  The current formulation does not allow this. Resetting to XFLOW-MODEL ZERO-FLOW.
+ ==============================================================================
+
+
+                                    I M E X   T I M E   S T E P   S U M M A R Y                                                     
+ =================================================================================================================                  
+    Time Step          Time                  Total Production             Total Injection  Total Max. Max. Change                   
+ --------------- ---------------- -------------------------------------- -----------------  PV   Mat. ------------                  
+               C                    Oil      Gas     Water   GOR.  Wat.    Gas     Water   Avg.  bal. Satur. Pres.                  
+       Size    U                                              M3/   Cut                    Pres. err. DSMAX  DPMAX                  
+  No.  Days IT T Days   yy:mm:dd    M3/D    MM3/D     M3/D     M3    %    MM3/D     M3/D    kPa   %           kPa                   
+ ----- ---- -- - ----- ---------- -------- -------- -------- ----- ----- -------- -------- ----- ---- ------ -----                  
+    1w .001 0  4 .0010 2024:07:01                                                          124.7    o -.100o  99e4                  
+
+ =================== FATAL ERROR (from subroutine: TMLOOP) ====================
+  The time step has failed to converge after 4  cuts.
+   
+     3 Warning messages.    1 Error messages.
+ ==============================================================================
+
+  Terminating simulation: Fatal error.
+
+       Field Total                             Fluid
+                             Oil       Gas       Water    Solvent   Polymer 
+                            -------   -------   -------   -------   -------
+                            (MSM3)    (MMSM3)   (MSM3)    (MMSM3)   (MKG) 
+  Cumulative Production        0         0         0        NA        NA   
+  Cumulative Injection        NA        NA         0        NA        NA   
+  Cumulative Gas Lift         NA         0        NA        NA        NA   
+  Cumulative Water Influx     NA        NA         0        NA        NA   
+  Current Fluids In Place    .00191    198e-9      0        NA        NA   
+  Production Rates             0         0         0        NA        NA   
+  Injection Rates             NA        NA         0        NA        NA   
+
+  Timesteps:      1  Newton Cycles:        4  Cuts:      4  Solver Iterations:            4
+  Average Implicitness    : 0.400
+  Material Balances (owg ): 1.000 1.000 1.000
+  Average Active Blocks:           5 Average Non-BHP Active Wells:     0
+  Total Blocks :           5 Total Wells :     2
+  Active Blocks:           5 Non-BHP Active Wells:     0
+  Total lstpro/lstpar calls:     6
+  Time at end of simulation:  0.100000E-02 (days) 
+  Average reservoir pressure excluding water zone: 124.6753 (kPa)    
+  Total Number of Solver Failures:       0
+  Jacobian Domains      1
+  Linear Solver: Aimsol
+  Preconditioner Ordering     REDBLACK
+  Preconditioner Degree           1
+  KMP_AFFINITY: Default
+  OMP_SCHEDULE: Default
+  Max Impl Blocks:        2  %Impl: 40.0%  (TS,CUT,NCYC): (    1, 0,  1 )
+  Max Solver Iterations (TS,CUT,NCYC):   1 (    1, 0,  1 )
+  Number of threads set:    1
+  Total number of cpus:   12
+  Memory Usage Peak:       21 MB on TS:    1  TS 1 Peak:       21 MB  Average:       21 MB  VM Size:        8 MB
+  Host computer: FAMILIA-GUICHAY
+
+  End of Simulation: Abnormal Termination 
+
+  CPU Time:             0.05 seconds
+  Elapsed Time:         0.15 seconds
+
+  Date and Time of End of Run:  Jul  9, 2024  20:18:53
+

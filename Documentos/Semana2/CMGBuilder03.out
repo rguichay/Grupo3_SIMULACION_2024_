@@ -1,0 +1,524 @@
+  ********************************************************************************
+  *                                                                              *
+  *                                IMEX  2015.10                                 *
+  *                   Adaptive - Implicit Black Oil Simulator                    *
+  *                         General Release for Win x64                          *
+  *                            2015-May-27   11:08:03                            *
+  *                                                                              *
+  *                          (c) Copyright 1977 - 2015                           *
+  *                Computer Modelling Group Ltd., Calgary, Canada                *
+  *                             All Rights Reserved                              *
+  *                                                                              *
+  ********************************************************************************
+
+
+  Command-line Arguments:  -f CMGBuilder03.dat
+                           -wd C:\Users\hp\Documents\GitHub\Grupo3_SIMULACION_2024\Documentos\Semana2
+                           -wait
+
+  Date and Time of Start of Run:  Jul  9, 2024  20:32:50
+
+
+     IMEX is using the following common block maximums:
+
+     Grid Blocks        =         100          Wells                =    2
+     Total well layers  =           2          Constraints per well =    4
+     Orthogonalizations =          -2          Table Entries        =   51
+ 
+ ===================== SUMMARY (from subroutine: INDYNM) ======================
+  Dimensioning scanning of data is complete.
+  Simulation will stop if there were error messages.
+     0 Warning messages.    0 Error messages.
+ ==============================================================================
+ 
+ 
+ ** 2024-07-09, 08:18:43 p. m., RONALD GUICHAY
+ ** 2024-07-09, 08:19:41 p. m., RONALD GUICHAY
+ RESULTS SIMULATOR IMEX 201410
+ 
+
+
+     Beginning data file reading and echo . . .
+ INUNIT SI
+ WSRF WELL 1
+ WSRF GRID TIME
+ WSRF SECTOR TIME
+ OUTSRF WELL LAYER NONE
+ OUTSRF RES ALL
+ OUTSRF GRID SO SG SW PRES OILPOT BPP SSPRES WINFLUX
+
+ ===================== WARNING (from subroutine: INIORD) ======================
+  Gas property related printout is being disabled
+  The OILWATER option does not allow gas property output.
+  Line: 12   File Name: CMGBuilder03.dat                                        
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: INIORD) ======================
+  Solvent property related printout is being disabled
+  This MODEL option does not allow solvent property output.
+  Line: 12   File Name: CMGBuilder03.dat                                        
+ ==============================================================================
+
+ WPRN GRID 0
+ OUTPRN GRID NONE
+ OUTPRN RES NONE
+ **  Distance units: m
+ RESULTS XOFFSET           0.0000
+ RESULTS YOFFSET           0.0000
+ RESULTS ROTATION           0.0000  **  (DEGREES)
+ RESULTS AXES-DIRECTIONS 1.0 -1.0 1.0
+ ** ***************************************************************************
+ ** Definition of fundamental cartesian grid
+ ** ***************************************************************************
+ GRID VARI 5 1 1
+ KDIR DOWN
+ DI IVAR
+  5*2
+ DJ JVAR
+  1
+ DK ALL
+  5*1
+ DTOP
+  5*100
+ PERMI CON          900
+ **  0 = null block, 1 = active block
+ NULL CON            1
+ POR CON          0.2
+ PERMJ CON          900
+ PERMK CON          900
+ **  0 = pinched block, 1 = active block
+ PINCHOUTARRAY CON            1
+ CPOR 0.000000001
+ MODEL OILWATER
+ TRES 75
+ PVT EG 1
+ 
+ **         p        Rs        Bo        Eg      viso       visg            co
+       101.325  0.104716   1.04892  0.832278   201.032  0.0153118  4.35113e-006
+       627.904  0.377829   1.04924   5.16526   195.886  0.0153261  4.35113e-006
+       1154.48  0.693424   1.04961   9.51033   190.188  0.0153455  4.35113e-006
+       1681.06   1.03637   1.05001   13.8663   184.281  0.0153681  4.35113e-006
+       2207.64   1.40008   1.05043    18.232   178.321  0.0153932  4.35113e-006
+       2734.22   1.78076   1.05088   22.6062   172.396  0.0154204  4.35113e-006
+        3260.8   2.17589   1.05134   26.9877   166.562  0.0154494  4.35113e-006
+       3787.37   2.58366   1.05182    31.375   160.856    0.01548  4.35113e-006
+       4313.95   3.00271   1.05231    35.767   155.303   0.015512  4.35113e-006
+       4840.53   3.43197   1.05282   40.1624   149.916  0.0155455  4.00619e-006
+       5367.11   3.87057   1.05333   44.5598   144.707  0.0155802  3.49928e-006
+       5893.69   4.31781   1.05386   48.9579    139.68  0.0156161  3.09596e-006
+       6420.27   4.77307   1.05439   53.3553   134.836  0.0156531  2.76833e-006
+       6946.84   5.23584   1.05494   57.7507   130.176  0.0156911  2.49753e-006
+       7473.42   5.70568    1.0555   62.1429   125.698  0.0157301   2.2704e-006
+          8000    6.1822   1.05606   66.5304   121.397  0.0157701   2.0775e-006
+          8400   6.54842   1.05649   69.8594   118.246   0.015801   1.9495e-006
+          8800   6.91816   1.05693   73.1843   115.193  0.0158325  1.83485e-006
+          9200   7.29129   1.05737   76.5048   112.235  0.0158644  1.73164e-006
+          9600    7.6677   1.05782   79.8201   109.371  0.0158967   1.6383e-006
+         10000   8.04727   1.05827   83.1297   106.597  0.0159295  1.55352e-006
+ DENSITY OIL 1000
+ DENSITY GAS 0.3
+ REFPW 101.325
+ DENSITY WATER 995.429
+ BWI 1.02522
+ CW 4.6292e-007
+ VWI 0.423766
+ CVW 0
+ PTYPE CON            1
+ ROCKFLUID
+ RPT 1
+ **        Sw       krw      krow
+ SWT
+             0         0         1
+          0.11    0.0121    0.7921
+          0.22    0.0484    0.6084
+          0.33    0.1089    0.4489
+          0.39    0.1521    0.3721
+          0.45    0.2025    0.3025
+          0.56    0.3136    0.1936
+          0.69    0.4761    0.0961
+          0.75    0.5625    0.0625
+          0.91    0.8281    0.0081
+             1         1         0
+ INITIAL
+ VERTICAL DEPTH_AVE WATER_OIL EQUIL
+ 
+ REFDEPTH 100
+ REFPRES 120
+ DWOC 200
+ PB CON          100
+ NUMERICAL
+
+ ===================== SUMMARY (from subroutine: INDATA) ======================
+  Reading of initial data is complete.
+  Simulation will stop if there were error messages.
+     2 Warning messages.    0 Error messages.
+ ==============================================================================
+
+
+
+ RUN-TIME DIMENSIONER MESSAGES 
+===============================
+
+
+
+ For Minimum Dimensioned Model Use
+----------------------------------
+  *DIM *ACTIVE_BLOCKS            5
+
+
+   However, if a warning message appeared above 
+   stating inability to obtain accurate         
+   dimensioning information, use the following  
+   line in the datafile for a minimum           
+   dimensioned model                            
+
+
+  *DIM *ACTIVE_BLOCKS            5
+
+ Currently Dimensioned Model Uses 
+----------------------------------
+  *DIM *ACTIVE_BLOCKS            5
+1
+ RUN
+ DATE 2024 7 1
+ 
+ **
+
+ ================== INFORMATIONAL (from subroutine: WMWLIN) ===================
+  The well named "Productor_1" is assigned the well number 1.
+   
+ ==============================================================================
+
+ WELL  'Productor_1'
+ PRODUCER 'Productor_1'
+
+ ================== INFORMATIONAL (from subroutine: WMWTIN) ===================
+  Well no. 1 ('Productor_1') is
+  being opened because *OPERATE was encountered for this well.
+ ==============================================================================
+
+ OPERATE  MAX  STL  20.0  CONT
+ **          rad  geofac  wfrac  skin
+
+ ================== INFORMATIONAL (from subroutine: WMWTIN) ===================
+  Minimum bottom hole pressure not specified for producer Productor_1
+  (Well No. 1). Setting default MIN BHP of 101.325 kPa   .
+ ==============================================================================
+
+ GEOMETRY  K  0.0762  0.37  1.0  0.0
+       PERF      GEOA  'Productor_1'
+ ** UBA             ff          Status  Connection
+     5 1 1         1.0  OPEN    FLOW-TO  'SURFACE'
+ **
+
+ ================== INFORMATIONAL (from subroutine: WMWLIN) ===================
+  The well named "Inyector_1" is assigned the well number 2.
+   
+ ==============================================================================
+
+ WELL  'Inyector_1'
+ INJECTOR UNWEIGHT 'Inyector_1'
+ INCOMP  WATER
+
+ ================== INFORMATIONAL (from subroutine: WMWTIN) ===================
+  Well no. 2 ('Inyector_1') is
+  being opened because *OPERATE was encountered for this well.
+ ==============================================================================
+
+ OPERATE  MAX  BHP  1000000.0  CONT
+ **          rad  geofac  wfrac  skin
+ GEOMETRY  K  0.0762  0.37  1.0  0.0
+       PERF      GEOA  'Inyector_1'
+ ** UBA             ff          Status  Connection
+     1 1 1         1.0  OPEN    FLOW-FROM  'SURFACE'
+
+ ===================== WARNING (from subroutine: WMCHCK) ======================
+  WELL Inyector_1 is an unweighted injector with XFLOW-MODEL FULLY-MIXED.
+  The current formulation does not allow this. Resetting to XFLOW-MODEL ZERO-FLOW.
+ ==============================================================================
+
+
+ ===================== SUMMARY (from subroutine: INWELL) ======================
+  Reading of well data is complete.
+  Simulation will stop if there were error messages.
+     3 Warning messages.    0 Error messages.
+ ==============================================================================
+
+    Material in place including all subgrids, (o,w,g):      1.9069      m3      0.0000      m3     0.19838      m3
+1
+
+
+
+                   ****************************************************************************************************
+                   *                                PVT Functions (Region   1)                                        *
+                   *--------------------------------------------------------------------------------------------------*
+                   *   pressure    sol'n gas     oil fvf      gas fvf    gas exp   oil visc   gas visc     co         *
+                   *     kPa         m3/ m3      rm3/ m3      rm3/ m3     m3/rm3     mPas       mPas       1/kPa      *
+                   *                                                                                                  *
+                   *     101.325       0.105     1.04892     1.20152       0.832   201.0      1.5312E-02  4.3511E-06  *
+                   *     627.904       0.378     1.04924     0.19360       5.165   195.9      1.5326E-02  4.3511E-06  *
+                   *    1154.480       0.693     1.04961     0.10515       9.510   190.2      1.5346E-02  4.3511E-06  *
+                   *    1681.060       1.036     1.05001     0.07212      13.866   184.3      1.5368E-02  4.3511E-06  *
+                   *    2207.640       1.400     1.05043     0.05485      18.232   178.3      1.5393E-02  4.3511E-06  *
+                   *    2734.220       1.781     1.05088     0.04424      22.606   172.4      1.5420E-02  4.3511E-06  *
+                   *    3260.800       2.176     1.05134     0.03705      26.988   166.6      1.5449E-02  4.3511E-06  *
+                   *    3787.370       2.584     1.05182     0.03187      31.375   160.9      1.5480E-02  4.3511E-06  *
+                   *    4313.950       3.003     1.05231     0.02796      35.767   155.3      1.5512E-02  4.3511E-06  *
+                   *    4840.530       3.432     1.05282     0.02490      40.162   149.9      1.5546E-02  4.0062E-06  *
+                   *    5367.110       3.871     1.05333     0.02244      44.560   144.7      1.5580E-02  3.4993E-06  *
+                   *    5893.690       4.318     1.05386     0.02043      48.958   139.7      1.5616E-02  3.0960E-06  *
+                   *    6420.270       4.773     1.05439     0.01874      53.355   134.8      1.5653E-02  2.7683E-06  *
+                   *    6946.840       5.236     1.05494     0.01732      57.751   130.2      1.5691E-02  2.4975E-06  *
+                   *    7473.420       5.706     1.05550     0.01609      62.143   125.7      1.5730E-02  2.2704E-06  *
+                   *    8000.000       6.182     1.05606     0.01503      66.530   121.4      1.5770E-02  2.0775E-06  *
+                   *    8400.000       6.548     1.05649     0.01431      69.859   118.2      1.5801E-02  1.9495E-06  *
+                   *    8800.000       6.918     1.05693     0.01366      73.184   115.2      1.5832E-02  1.8349E-06  *
+                   *    9200.000       7.291     1.05737     0.01307      76.505   112.2      1.5864E-02  1.7316E-06  *
+                   *    9600.000       7.668     1.05782     0.01253      79.820   109.4      1.5897E-02  1.6383E-06  *
+                   *   10000.000       8.047     1.05827     0.01203      83.130   106.6      1.5929E-02  1.5535E-06  *
+                   ****************************************************************************************************
+1
+ 
+                   ***************************************************************************
+                   *              Water-Oil Saturation Functions (Rock Type   1)             *
+                   *-------------------------------------------------------------------------*
+                   *       SWT              KRW           KRNW          Drainage  Imbibition *
+                   *                                                      PCNW       PCNWI   *
+                   *                                                      kPa        kPa     *
+                   *     0.00000         0.00000         1.00000         0.00000    0.00000  *
+                   *     0.11000         0.01210         0.79210         0.00000    0.00000  *
+                   *     0.22000         0.04840         0.60840         0.00000    0.00000  *
+                   *     0.33000         0.10890         0.44890         0.00000    0.00000  *
+                   *     0.39000         0.15210         0.37210         0.00000    0.00000  *
+                   *     0.45000         0.20250         0.30250         0.00000    0.00000  *
+                   *     0.56000         0.31360         0.19360         0.00000    0.00000  *
+                   *     0.69000         0.47610         0.09610         0.00000    0.00000  *
+                   *     0.75000         0.56250         0.06250         0.00000    0.00000  *
+                   *     0.91000         0.82810         0.00810         0.00000    0.00000  *
+                   *     1.00000         1.00000         0.00000         0.00000    0.00000  *
+                   ***************************************************************************
+
+
+1
+
+                                                       *************************
+                                                       * SIMULATION PARAMETERS *
+                                                       *************************
+
+
+
+                                     Number of grid blocks in x direction:            5
+                                     Number of grid blocks in y direction:            1
+                                     Number of grid blocks in z direction:            1
+                                     Total number of grid blocks:                     5
+
+                                     Number of equations:                             2
+                                     Number of orthogonalizations:                   30
+                                     Maximum number of Newton iterations:            10
+
+                                               PVT REGION  1
+                                               **************
+
+                                     Oil density at stock tank conditions:     1000.00000   kg/ m  3
+                                     Gas density at standard conditions:          0.30000   kg/ m  3
+                                     Oil Viscosity Pressure Derivative:       0.00000E+00   mPas/kPa
+                                     Water density at stock tank conditions:    995.42900   kg/ m  3
+                                     Water Formation Vol. Factor:                 1.02522   m3/m3, RB/STB or cm3/cm3
+                                     Water Compressibility:                   0.46292E-06   1/kPa
+                                     Water reference Pressure *REFPW:           101.32500   kPa 
+                                     Water Viscosity at *REFPW:                   0.42377   mPas
+                                     Water Viscosity Pressure Derivative:     0.00000E+00   mPas/kPa
+
+                                     Rock compressibility:                    1.00000E-09  1/kPa
+
+                                               INITIALIZATION REGION  1
+                                               *************************
+                                     Reference Depth *REFDEPTH:                 100.00000   m 
+                                     Reference Pressure *REFPRES:               120.00000   kPa 
+                                     Depth to Water Contact:                    200.00000   m 
+                                     Depth to Gas Contact:                       99.95000   m 
+1
+ ***********************************************************************************************************************************
+ TIME: 0.0000 days                              I M E X   S E C T O R   S U M M A R Y                             DATE: 2024:07:01  
+ ***********************************************************************************************************************************
+ ===================================================================================================================================
+ 
+                                SECTOR-0                                                                                            
+                                Entire                                                                                              
+                                 Field                                                                                              
+   Total Pore Volume.  M rm3    .00200                                                                                              
+   HC. Pore Volume     M rm3    .00200                                                                                              
+ Fluids in Place
+   Stock Tank Oil      M m3     .00191                                                                                              
+   Mobile STO          M m3     .00191                                                                                              
+   Total Gas          MM m3     198e-9                                                                                              
+   Free Gas           MM m3                                                                                                         
+   Water               M m3                                                                                                         
+   Reservoir Oil       M rm3    .00200                                                                                              
+   Reservoir Gas       M rm3                                                                                                        
+   Reservoir Water     M rm3                                                                                                        
+ Average Pressure 
+   Total Pore Volume  kPa       124.68                                                                                              
+   HC. Pore Volume    kPa       124.68                                                                                              
+ Average Saturation %
+   Oil                          100.00                                                                                              
+   Gas                                                                                                                              
+   Water                                                                                                                            
+ Percentage Recovery 
+   Stock Tank Oil                                                                                                                   
+   STO as a % of Mobile Oil                                                                                                         
+   Total Gas                                                                                                                        
+   Water                                                                                                                            
+ Cumulative Injection 
+   Oil              M m3                                                                                                            
+   Water            M m3                                                                                                            
+ Cumulative Production 
+   Oil              M m3                                                                                                            
+   Gas             MM m3                                                                                                            
+   Water            M m3                                                                                                            
+ Injection Rate 
+   Oil              M m3/days                                                                                                       
+   Water            M m3/days                                                                                                       
+ Production Rate 
+   Oil              M m3/days                                                                                                       
+   Gas             MM m3/days                                                                                                       
+   Water            M m3/days                                                                                                       
+ 
+
+ ***********************************************************************************************************************************
+ TIME: 0.0000 days                 I M E X   APPORTIONMENT  MESSAGES -- BEGINNING  OF  TIMESTEP 1                 DATE: 2024:7:1
+
+ **WMPROD -- Switch well 1 ('Productor_1') to BHP constraint for changes entered under OPERATE, ALTER or TARGET.
+ ***********************************************************************************************************************************
+
+          *** Repeat timestep - Unphysical Bo due to outside table range p, pb. IPS =           1 BOK=   -0.35139D+01 UBA = 1,1,1                                                           
+          *** Repeat timestep - Unphysical Bo due to outside table range p, pb. IPS =           1 BOK=   -0.35123D+01 UBA = 1,1,1                                                           
+          *** Repeat timestep - Unphysical Bo due to outside table range p, pb. IPS =           1 BOK=   -0.34898D+01 UBA = 1,1,1                                                           
+
+                                    I M E X   T I M E   S T E P   S U M M A R Y                                                     
+ =================================================================================================================                  
+    Time Step          Time                  Total Production             Total Injection  Total Max. Max. Change                   
+ --------------- ---------------- -------------------------------------- -----------------  PV   Mat. ------------                  
+               C                    Oil      Gas     Water   GOR.  Wat.    Gas     Water   Avg.  bal. Satur. Pres.                  
+       Size    U                                              M3/   Cut                    Pres. err. DSMAX  DPMAX                  
+  No.  Days IT T Days   yy:mm:dd    M3/D    MM3/D     M3/D     M3    %    MM3/D     M3/D    kPa   %           kPa                   
+ ----- ---- -- - ----- ---------- -------- -------- -------- ----- ----- -------- -------- ----- ---- ------ -----                  
+    1w .001 0  4 .0010 2024:07:01                                                          124.7    o -.100o  99e4                  
+1
+ ***********************************************************************************************************************************
+ TIME: .00100 days                              I M E X   S E C T O R   S U M M A R Y                             DATE: 2024:07:01  
+ ***********************************************************************************************************************************
+ ===================================================================================================================================
+ 
+                                SECTOR-0                                                                                            
+                                Entire                                                                                              
+                                 Field                                                                                              
+   Total Pore Volume.  M rm3    .00200                                                                                              
+   HC. Pore Volume     M rm3    .00200                                                                                              
+ Fluids in Place
+   Stock Tank Oil      M m3     .00191                                                                                              
+   Mobile STO          M m3     .00191                                                                                              
+   Total Gas          MM m3     198e-9                                                                                              
+   Free Gas           MM m3                                                                                                         
+   Water               M m3                                                                                                         
+   Reservoir Oil       M rm3    .00200                                                                                              
+   Reservoir Gas       M rm3                                                                                                        
+   Reservoir Water     M rm3                                                                                                        
+ Average Pressure 
+   Total Pore Volume  kPa       124.68                                                                                              
+   HC. Pore Volume    kPa       124.68                                                                                              
+ Average Saturation %
+   Oil                          100.00                                                                                              
+   Gas                                                                                                                              
+   Water                                                                                                                            
+ Percentage Recovery 
+   Stock Tank Oil                                                                                                                   
+   STO as a % of Mobile Oil                                                                                                         
+   Total Gas                                                                                                                        
+   Water                                                                                                                            
+ Cumulative Injection 
+   Oil              M m3                                                                                                            
+   Water            M m3                                                                                                            
+ Cumulative Production 
+   Oil              M m3                                                                                                            
+   Gas             MM m3                                                                                                            
+   Water            M m3                                                                                                            
+ Injection Rate 
+   Oil              M m3/days                                                                                                       
+   Water            M m3/days                                                                                                       
+ Production Rate 
+   Oil              M m3/days                                                                                                       
+   Gas             MM m3/days                                                                                                       
+   Water            M m3/days                                                                                                       
+ 
+
+
+
+ 
+ Restart record at itime=    1 written to restart file
+
+ 
+ No Wells have been operated in the Field.
+ ===================================================================================================================================
+
+ =================== FATAL ERROR (from subroutine: TMLOOP) ====================
+  The time step has failed to converge after 4  cuts.
+   
+ ==============================================================================
+
+
+DATE 2024 7  2.00000                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+
+  Terminating simulation: Fatal error.
+                                                                                                                                    
+ ***********************************************                                                                                    
+ A V A I L A B L E    R E S T A R T    T I M E S                                                                                    
+ ***********************************************                                                                                    
+      time        time             date                                                                                             
+      step                      yyyy:mm:dd                                                                                          
+     ======  =============     ============                                                                                         
+     1   1.000000000000E-03 2024:07:01.001                                                                                          
+
+       Field Total                             Fluid
+                             Oil       Gas       Water    Solvent   Polymer 
+                            -------   -------   -------   -------   -------
+                            (MSM3)    (MMSM3)   (MSM3)    (MMSM3)   (MKG) 
+  Cumulative Production        0         0         0        NA        NA   
+  Cumulative Injection        NA        NA         0        NA        NA   
+  Cumulative Gas Lift         NA         0        NA        NA        NA   
+  Cumulative Water Influx     NA        NA         0        NA        NA   
+  Current Fluids In Place    .00191    198e-9      0        NA        NA   
+  Production Rates             0         0         0        NA        NA   
+  Injection Rates             NA        NA         0        NA        NA   
+
+  Timesteps:      1  Newton Cycles:        4  Cuts:      4  Solver Iterations:            4
+  Average Implicitness    : 0.400
+  Material Balances (owg ): 1.000 1.000 1.000
+  Average Active Blocks:           5 Average Non-BHP Active Wells:     0
+  Total Blocks :           5 Total Wells :     2
+  Active Blocks:           5 Non-BHP Active Wells:     0
+  Total lstpro/lstpar calls:     6
+  Time at end of simulation:  0.100000E-02 (days) 
+  Average reservoir pressure excluding water zone: 124.6753 (kPa)    
+  Total Number of Solver Failures:       0
+  Jacobian Domains      1
+  Linear Solver: Aimsol
+  Preconditioner Ordering     REDBLACK
+  Preconditioner Degree           1
+  KMP_AFFINITY: Default
+  OMP_SCHEDULE: Default
+  Max Impl Blocks:        2  %Impl: 40.0%  (TS,CUT,NCYC): (    1, 0,  1 )
+  Max Solver Iterations (TS,CUT,NCYC):   1 (    1, 0,  1 )
+  Number of threads set:    1
+  Total number of cpus:   12
+  Memory Usage Peak:       21 MB on TS:    1  TS 1 Peak:       21 MB  Average:       21 MB  VM Size:        8 MB
+  Host computer: FAMILIA-GUICHAY
+
+  End of Simulation: Abnormal Termination 
+
+  CPU Time:             0.00 seconds
+  Elapsed Time:         0.19 seconds
+
+  Date and Time of End of Run:  Jul  9, 2024  20:32:50
+
